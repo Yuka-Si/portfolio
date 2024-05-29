@@ -1,0 +1,24 @@
+.hero {
+  padding-bottom: 48px;
+  padding-top: 412px;
+  position: relative;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero-title {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.hero-title-part {
+  color: rgba(255, 255, 255, 0.5);
+}
+.hero-text {
+  line-height: 1.5;
+}
+@media only screen and (min-width: 768px) {
+}
