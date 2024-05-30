@@ -1,0 +1,31 @@
+.value {
+  padding-top: 48px;
+  background: #fff3e4;
+}
+
+.value-container {
+  padding: 0;
+}
+.value-text-wrap {
+  padding: 0 20px;
+  padding-bottom: 48px;
+}
+.value-title {
+  font-size: 32px;
+  color: #181823;
+  margin-bottom: 24px;
+}
+.value-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #5b6876;
+  margin-bottom: 90px;
+}
+.value-link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #181823;
+  text-decoration: underline;
+}
+.value-img {
+}
