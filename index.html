@@ -14,7 +14,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <script type="module" crossorigin src="/portfolio/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/portfolio/assets/index-3946a89d.css">
+  <link rel="stylesheet" href="/portfolio/assets/index-8538c7ee.css">
 </head>
 
 <body>
@@ -22,14 +22,28 @@
   <main>
     <section class="hero ">
     <div class="container hero-container">
-        <img src="/portfolio/assets/hero-ce97472f.jpg" alt="" class="hero-img" height="288" width="360">
-        <h1 class="hero-title">I’m Alex Gvozdetsʹkyy.
-            A SMM
-            <span class="hero-title-part">based in Kyiv.</span>
-        </h1>
-        <p class="hero-text">I’m probably the most passionate designer you will ever get to work with. If you have a
-            great project that needs some
-            amazing skills, I’m your guy.</p>
+        <picture>
+
+
+            <source media="(min-width: 1158px)" srcset="/portfolio/assets/hero-ce97472f.jpg 1x, /portfolio/assets/hero-ce97472f.jpg 2x" type="image/jpg" />
+
+
+            <source media="(min-width: 768px)" srcset="/portfolio/assets/hero-tab-ac7c6e2a.jpg 1x, /portfolio/assets/hero-tab-ac7c6e2a.jpg 2x" type="image/jpg" />
+
+
+            <source media="(max-width: 767px)" srcset="/portfolio/assets/hero-ce97472f.jpg 1x, /portfolio/assets/hero-ce97472f.jpg 2x" type="image/jpg" />
+            <img class="hero-img" src="/portfolio/assets/hero-ce97472f.jpg" alt="men" width="450" height="294" loading="lazy" />
+        </picture>
+
+        <div class="hero-text-wrap">
+            <h1 class="hero-title">I’m Alex Gvozdetsʹkyy.
+                A SMM
+                <span class="hero-title-part">based in Kyiv.</span>
+            </h1>
+            <p class="hero-text">I’m probably the most passionate designer you will ever get to work with. If you have a
+                great project that needs some
+                amazing skills, I’m your guy.</p>
+        </div>
     </div>
 </section>
   </main>
