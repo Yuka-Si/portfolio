@@ -52,7 +52,8 @@
   background: #000;
   background-image: url(../img/logo.jpg);
   background-position: bottom;
-  background-size: contain;
+  background-position: 156px 435px;
+  background-size: 92px;
   background-repeat: no-repeat;
 }
 .mob-list {
@@ -70,11 +71,16 @@
   line-height: 0;
   position: absolute;
   top: 30px;
-  right: 12px;
-  width: 44px;
-  height: 44px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
 }
 .mob-close-icon {
   fill: #fff;
   stroke: #fff;
+}
+@media only screen and (min-width: 768px) {
+  .backdrop {
+    display: none;
+  }
 }
