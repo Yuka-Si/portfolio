@@ -1,1 +1,22 @@
+.header {
+  padding: 24px 0;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+.nav {
+  display: none;
+}
 
+.menu-open-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
+}
