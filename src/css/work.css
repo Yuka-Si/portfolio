@@ -1,0 +1,45 @@
+.work {
+  padding: 48px 0;
+}
+
+.work-title {
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #8491a0;
+  margin-bottom: 8px;
+}
+.work-text {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.wirk-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.work-num {
+  font-size: 117px;
+  color: #8491a0;
+}
+.work-subtitle {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.google-text {
+  color: #3cc74e;
+}
+.facebook-text {
+  color: #609bff;
+}
+.dribbble-text {
+  color: #e95d90;
+}
+.work-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #8491a0;
+}
